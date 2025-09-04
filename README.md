@@ -85,15 +85,6 @@ The website's signature feature is an interactive 3D background that includes:
 
 ## Development Notes
 
-### Removed Files
-
-The project was recently cleaned up, removing 100+ unused files including:
-
-- Tutorial images (2-2-_, 3-2-_, 4-2-_, 5-2-_, 6-1-\*)
-- Unity packages and development assets
-- Unused JavaScript libraries (OrbitControls, OBJLoader, etc.)
-- Video files and backup files
-
 ### File Organization
 
 - All three.js related files are now organized in the `threejs/` folder for better maintainability
@@ -105,15 +96,3 @@ The project was recently cleaned up, removing 100+ unused files including:
 1. **Local Development**: Simply open `index.html` in a modern web browser
 2. **Web Server**: For full functionality, serve the files through a web server (due to CORS restrictions with fonts)
 3. **WebGL**: Ensure your browser supports WebGL for the three.js animation
-
-## Course Information
-
-**CS11: How to Make VR**  
-_Introduction to Virtual Reality Design and Development_
-
-- **Platform**: Unity game engine development
-- **Target Device**: Oculus Quest 2
-- **Prerequisites**: CS 106A or equivalent
-- **Format**: Hands-on, project-based learning
-
-The course teaches VR design best practices and development pipeline, culminating in student team projects building VR applications.
